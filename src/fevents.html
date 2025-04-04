@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alumni & Student Interaction Events</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .event-image {
+      width: 100px;
+      height: 75px;
+      object-fit: cover;
+    }
+    .description-cell {
+      display: flex;
+      align-items: center;
+    }
+    .description-text {
+      margin-left: 15px;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="logo.jpeg" width="50" height="50" alt="Logo"> Kongu Engineering College Alumni-Student Platform</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="alumniDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Alumni</a>
+                      <ul class="dropdown-menu" aria-labelledby="alumniDropdown">
+                          <li><a class="dropdown-item" href="alumni2.html">Alumni Directory</a></li>
+                          <li><a class="dropdown-item" href="membership.html">Alumni MemberShip</a></li>
+                      </ul></li>
+                    <li class="nav-item"><a class="nav-link" href="student.html">Students</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mentorship.html">Mentorship</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="events2.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Kongu Engineering College Alumni & Student Interaction Events</h2>
+    <table class="table table-striped table-hover table-bordered">
+      <thead class="table-dark">
+        <tr>
+          <th>Sno.</th>
+          <th>Event Name</th>
+          <th>Date</th>
+          <th>Location</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Alumni Career Talk</td>
+          <td>April 10, 2023</td>
+          <td>Karpaga Vinayaga Auditorium</td>
+          <td class="description-cell">
+            <img src="l4.jpeg" alt="Alumni Career Talk" class="event-image">
+            <div class="description-text">An interactive session where alumni shared career insights with students.</div>
+          </td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Mentorship Meetup</td>
+          <td>July 25, 2023</td>
+          <td>Online (Zoom)</td>
+          <td class="description-cell">
+            <img src="l5.jpeg" alt="Mentorship Meetup" class="event-image">
+            <div class="description-text">Alumni mentors guided final-year students on job applications and career choices.</div>
+          </td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>Entrepreneurship Workshop</td>
+          <td>September 5, 2023</td>
+          <td>Innovation Lab, KVC</td>
+          <td class="description-cell">
+            <img src="l3.jpeg" alt="Entrepreneurship Workshop" class="event-image">
+            <div class="description-text">Alumni entrepreneurs provided insights on starting businesses and startups.</div>
+          </td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td>Alumni-Student Sports Meet</td>
+          <td>November 18, 2023</td>
+          <td>College Sports Ground</td>
+          <td class="description-cell">
+            <img src="l2.jpg" alt="Alumni-Student Sports Meet" class="event-image">
+            <div class="description-text">An event where alumni and students participated in friendly sports competitions.</div>
+          </td>
+        </tr>
+        <tr>
+          <th>5</th>
+          <td>Panel Discussion: Future of Engineering</td>
+          <td>December 15, 2023</td>
+          <td>Conference Hall, KVC</td>
+          <td class="description-cell">
+            <img src="l6.jpeg" alt="Panel Discussion" class="event-image">
+            <div class="description-text">Alumni panelists discussed industry trends and student preparations for the future.</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container-fluid bg-dark text-white text-center py-3">
+    <p>2024 Alumni-Student Interaction Platform | Kongu Engineering College </p>
+</div>
+
+</body>
+</html>
